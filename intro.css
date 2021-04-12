@@ -1,0 +1,41 @@
+html,body{
+	background-image: url(graphics/star_wars.jpg);
+	font-family:MatterhornSerif;
+	font-weight:800;
+	font-style:normal;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	overflow-y:hidden;
+	overflow-x:hidden;
+	background-size:100% 100%;
+	background-attachment: fixed; 
+	user-select:none;
+	-o-user-select:none;
+	-ms-user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+div{
+	height: 100%;
+	width: 100%;
+	transform:perspective(500px) rotateX(40deg);
+	text-align: center;
+	margin: 0 auto;
+}
+
+marquee{
+	height: 80%;
+	width: 50%;
+	text-align: justify;
+}
+
+
+.long-time{text-decoration:none;margin:20% 32% 0 40%;color:#35C0CD;display:block;padding: 10px;text-shadow: 0 0 1px #028E9B, 0 0 2px #028E9B, 0 0 2px #028E9B, 0 0 2px #028E9B, 0 0 20px #028E9B, 0 0 20px #028E9B, 0 0 5px #028E9B, 0 0 5px #028E9B;}

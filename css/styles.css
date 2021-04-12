@@ -1,0 +1,162 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	font-family: 'Andika', sans-serif;
+}
+
+#logo
+{
+	display:block;
+	text-align:center;
+	width:100%;
+	height:350px;
+	background-color:rgba(0,0,0,0.5);
+}
+
+#way
+{
+	display:block;
+	width:100%;
+}
+
+#logo img
+{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.dark-force
+{
+	display:block;
+	width:100%;
+	background: black;
+	height:500px;
+	text-decoration:none;
+	color:white;
+	transition-duration:500ms;
+}
+
+.dark-force:nth-child(2n+1) 
+{
+    background: #333;
+}
+
+.dark-force:hover
+{
+	background:#A51709;
+	transition-duration:500ms;
+}
+
+.light-force
+{
+	display:block;
+	width:100%;
+	background: green;
+	height:500px;
+	text-decoration:none;
+	color:white;
+	transition-duration:500ms;
+}
+
+.light-force:nth-child(2n+1) 
+{
+    background: #3DB210;
+}
+
+.light-force:hover
+{
+	background-color:#75BD58;
+	transition-duration:500ms;
+}
+
+h1
+{
+	text-align:center;
+}
+
+p{padding:15px;}
+
+#text
+{
+	display:block;
+	float:right;
+	width:70%;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:40px;
+	padding:15px;
+	height:450px;
+	font-size: 22px;
+	text-align:justify;
+
+}
+
+#text-left
+{
+	display:block;
+	float:left;
+	width:70%;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:20px;
+	padding:15px;
+	height:450px;
+	font-size: 22px;
+	text-align:justify;
+}
+
+#way img
+{
+	width:25%;
+}
+
+@media all and (min-width: 800px) and (max-width: 1900px) 
+{
+	#text
+	{
+		font-size: 15px;
+		width:60%;
+	}
+
+	#text-left
+	{
+		font-size: 15px;
+		width:60%;
+	}
+	
+	p{padding:25px;}
+	
+	#way img
+	{
+		width:30%;
+	}
+}
+
+
+#force-dark
+{
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #CC1502, 0 0 40px #CC1502, 0 0 55px #CC1502, 0 0 75px #CC1502;
+}
+
+#force-light
+{
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #3DB210, 0 0 30px #3DB210, 0 0 40px #3DB210, 0 0 55px #3DB210, 0 0 75px #3DB210;
+}
+
+
